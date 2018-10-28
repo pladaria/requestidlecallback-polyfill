@@ -25,11 +25,11 @@ or
 ## Usage
 
 ```js
-import 'requestidlecallback-polyfill`;
+import 'requestidlecallback-polyfill';
 
 // ...
 
-window.requestIdleCallback(doSomething, { timeout: 2000 });
+window.requestIdleCallback(doSomething, {timeout: 2000});
 ```
 
 ## Credits
