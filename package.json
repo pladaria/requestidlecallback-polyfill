@@ -1,0 +1,20 @@
+{
+  "name": "requestidlecallback-polyfill",
+  "version": "1.0.0",
+  "description": "requestIdleCallback Polyfill",
+  "main": "index.js",
+  "types": "./types/requestidlecallback.d.ts",
+  "scripts": {
+    "test": "exit 0"
+  },
+  "keywords": [
+    "requestIdleCallback",
+    "request",
+    "idle",
+    "callback",
+    "defer"
+  ],
+  "author": "Pedro Ladaria <pedro.ladaria@gmail.com>",
+  "license": "(MIT AND Apache-2.0)",
+  "devDependencies": {}
+}
