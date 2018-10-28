@@ -15,6 +15,15 @@
     "defer"
   ],
   "author": "Pedro Ladaria <pedro.ladaria@gmail.com>",
-  "license": "(MIT AND Apache-2.0)",
-  "devDependencies": {}
+  "license": "MIT AND Apache-2.0",
+  "devDependencies": {},
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pladaria/requestidlecallback-polyfill.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pladaria/requestidlecallback-polyfill/issues"
+  },
+  "homepage": "https://github.com/pladaria/requestidlecallback-polyfill#readme"
 }
