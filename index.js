@@ -1,10 +1,14 @@
 window.requestIdleCallback =
     window.requestIdleCallback ||
-    function(cb) {
+    function(cb, options) {
+        var options = options || {};
+        var timeout = options.timeout || 1;
         var start = Date.now();
         return setTimeout(function() {
             cb({
-                didTimeout: false,
+                get didTimeout() {
+                    return options.timeout ? false : start - Date.now() > timeout;
+                },
                 timeRemaining: function() {
                     return Math.max(0, 50 - (Date.now() - start));
                 },
