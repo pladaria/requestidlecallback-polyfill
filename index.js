@@ -7,7 +7,7 @@ window.requestIdleCallback =
         return setTimeout(function() {
             cb({
                 get didTimeout() {
-                    return options.timeout ? false : start - Date.now() > timeout;
+                    return options.timeout ? false : (Date.now() - start) > timeout;
                 },
                 timeRemaining: function() {
                     return Math.max(0, 50 - (Date.now() - start));
